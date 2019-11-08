@@ -3,7 +3,7 @@ const images = require('./routes/images');
 const express = require('express');
 const app = express();
 
-mongoose.connect('mongodb://localhost/debasrid')
+mongoose.connect('mongodb://localhost/imgSearchDB')
   .then(() => console.log('Connected to MongoDB...'))
   .catch(err => console.error('Could not connect to MongoDB...'));
 
