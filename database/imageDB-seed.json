@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Smiling cat",
+        "keywords": 
+            ["cat","laugh","smile"],
+        "url": "https://image-search-project.s3.eu-central-1.amazonaws.com/ba09d341bd80f67c0ce3ff36f3aef6a4.jpg"
+    },
+    {
+        "title": "Angry cat",
+        "keywords": 
+            ["cat","angry","fight"],
+        "url": "https://image-search-project.s3.eu-central-1.amazonaws.com/permanently-angry-new-grumpy-cat-louis-5-5cf116b1bd525__700.jpg"
+    },
+    {
+        "title": "Sad cat",
+        "keywords": 
+            ["cat","sad","crying"],
+        "url": "https://image-search-project.s3.eu-central-1.amazonaws.com/Sad_cat_diary_(14765131371).jpg"
+    },
+    {
+        "title": "Sleepy cat",
+        "keywords": 
+            ["cat","sleep","tired"],
+        "url": "https://image-search-project.s3.eu-central-1.amazonaws.com/gray-and-white-cat-asleep-with-whiskers-out.jpg"
+    },
+    {
+        "title": "Frightened cat",
+        "keywords": 
+            ["cat","afraid","fright"],
+        "url": "https://image-search-project.s3.eu-central-1.amazonaws.com/kitten-440379.jpg"
+    }
+]
