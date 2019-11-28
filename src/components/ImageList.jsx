@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import axios from 'axios';
 import ImageListRow from './ImageListRow.jsx';
 
-import classes from './ImageList.css';
+//import classes from './ImageList.css';
 
 class ImageList extends Component {
     constructor(){
@@ -11,7 +11,7 @@ class ImageList extends Component {
         this.state = { listOfImages: [] };
     }
   
-    getAllProjects = () =>{
+    getAllImages = () =>{
       axios.get(`http://localhost:5000/api/images`)
       .then(responseFromApi => {
         this.setState({
@@ -30,7 +30,7 @@ class ImageList extends Component {
                 <div style={{width: '60%', float:"left"}}>
                 { this.state.listOfImages.map( imageInStore => {
                     return (
-                        <ImageListRow imageInStore={imageInStore}></ImageListRow>
+                        <ImageListRow imageComponent={imageInStore}></ImageListRow>
                     )})
                 }
                 </div>

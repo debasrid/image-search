@@ -6,13 +6,14 @@ import classes from './ImageListRow.css';
 class ImageListRow extends Component {
     constructor(props){
         super(props);
+        this.state = {imageId: this.props.imageComponent._id, imageUrl: this.props.imageComponent.url}
     }
 
 
     render () {
         let listRow = (
-            <div key={props.imageInStore._id}>
-                <img src={props.imageInStore.Url} width="100" height="100"></img>
+            <div key={this.state.imageId}>
+                <img src={this.state.imageUrl} width="100" height="100"></img>
             </div>
         );
 
